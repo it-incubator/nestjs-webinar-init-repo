@@ -10,8 +10,8 @@ const getSettings = () => ({
     DB_HOST: process.env.DB_HOST,
     DB_PORT: Number.parseInt(process.env.DB_PORT!),
     DB_TYPE: process.env.DB_TYPE,
-    USERNAME: process.env.USERNAME,
-    PASSWORD: process.env.PASSWORD,
+    DB_USERNAME: process.env.DB_USERNAME,
+    DB_PASSWORD: process.env.DB_PASSWORD,
   },
 });
 
